@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Corner | Anime Search</title>
+
+    <link rel="stylesheet" href="./styles/globals.css">
+
+    <script src="https://kit.fontawesome.com/5c228b99f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="loader">
+        <div class="preloader">
+            <span></span> 
+            <span></span> 
+            <span></span>
+        </div>
+        <h2>Please Hold</h2>
+    </div>
+    <div class="container-1">
+        <div id="banner">
+            <h1 onclick="window.location.reload()">Anime Corner</h1>
+        </div>
+        <p>Explore different types of anime!</p>
+        <div class="search">
+            <img src="./images/icon.png.webp" alt="Happy tangerine" id="search-img">
+            <input type="search" id="searchInput" placeholder="Enter anime ex. Attack on Titan">
+            <button onclick="loadList()"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+        </div>
+        
+        <div class="full-result">
+            <!-- <div class="results">
+                <div class="anime-info">
+                        <div id="name">Name:</div>
+                        <div id="episodes">episodes:</div>
+                        <div id="types">
+                            <div id="type">Type:</div>
+                            <div id="url">Url:</div>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img src="./images/Banner.jpeg" alt="Anime Image" id="hero-img">
+                </div>
+            </div> -->
+        </div>
+    </div> 
+    <div class="view-more" onclick="loadList()"><p>View More</p></div>
+    
+
+    <!-- scripts -->
+    <script src="./scripts/scripts.js"></script>
+    <!-- Irish Catungal -->
+    <!-- Student ID: A01268750  -->
+
+</body>
+</html>
